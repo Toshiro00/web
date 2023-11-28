@@ -23,7 +23,7 @@
 <main>
   <SvelteFlow {nodes} {edges} fitView>
     <Background bgColor="rgba(126,159,219,0.5)" patternColor="white" />
-    <Controls showInteractive={false} />
+    <Controls showFitView={false} />
   </SvelteFlow>
 </main>
 
